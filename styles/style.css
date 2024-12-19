@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* height: 100vh; */
+    /* background-color:rgb(117, 100, 109); */
+    /* background-image: url('../rsc/nature01.jpg'); */
+    /* background-image: url('https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?cs=srgb&dl=pexels-pixabay-206359.jpg&fm=jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* background: linear-gradient(to left, rgb(232, 161, 135), rgb(103, 56, 103)); */
+    background: radial-gradient(  rgb(106, 57, 57), blue, rgb(161, 161, 114));
+}
+
+#image{
+    padding: 20px;
+}
+
+#navBar{
+    margin: 1opx;
+    height: 50px;
+    background-color: aqua;
+    position: sticky; 
+    top: 20px; 
+    /* align-items: center;  */
+}
+
+#flexContainer1{
+    display: flex;
+    margin: 20px 20px;
+    background-color: rgb(127, 162, 245);
+    height: 200px;
+    width: 1000px;
+    /* text-align: center; */
+    
+}
+
+#flexContainer1 > div{
+    margin: 10px ;
+    background-color: azure;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 50px;
+    align-items: center;
+}
+
+#flexContainer2{
+    display: flex;
+    margin: 20px 20px;
+    background-color: rgb(127, 162, 245);
+    height: 200px;
+    width: 1000px;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+#flexContainer2 > div{
+    margin: 10px ;
+    background-color: azure;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 50px;
+    align-items: center;
+}
+
+#flexContainer3{
+    display: flex;
+    margin: 20px 20px;
+    background-color: rgb(127, 162, 245);
+    height: 200px;
+    width: 1000px;
+    /* flex-direction: row; */
+    flex-wrap:wrap;
+    justify-content: space-around;
+    /* when flex wrap: wrap active than flex direction: column will not do its function */
+    /* flex-direction: column;   */
+    align-items:flex-end;
+}
+
+#flexContainer3 > div{
+    margin: 10px ;
+    background-color: azure;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 50px; 
+}
+
+#flexContainer4{
+    display: flex;
+    margin: 20px 20px;
+    background-color: rgb(127, 162, 245);
+    height: 200px;
+    width: 1000px;
+    flex-direction: row;
+    /* flex-wrap:wrap; */
+    justify-content:space-between; 
+}
+
+#flexContainer4 > div{
+    /* margin: 10px ; */
+    background-color: azure;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 50px;
+    align-items: center; 
+}
+
+#flexContainer5{
+    display: flex;
+    margin: 20px 20px;
+    background-color: rgb(127, 162, 245);
+    height: 200px;
+    width: 1000px;
+    /* flex-direction: row; */
+    /* flex-wrap:wrap; */
+    justify-content:space-evenly; 
+    /* flex-flow: center space-evenly; */
+    align-items: center;
+    gap: 50px 20px;
+    /* flex-wrap: wrap; */
+}
+
+#flexContainer5 > div{
+     margin: 10px ;
+     /* background-color: azure; */
+     width: 100px;
+     height: 100px;
+     text-align: center;
+     font-size: 50px;
+     align-items: center;
+    
+}
+
+.item5{
+    flex-shrink: 7;
+    background-color: aqua;
+}
+
+#flexContainer6{
+    display: flex;
+    margin: 20px 20px;
+    background-color: rgb(127, 162, 245);
+    height: 200px;
+    width: 1000px;
+    /* flex-direction: row; */
+    /* flex-wrap:wrap; */
+    justify-content:space-evenly; 
+    /* flex-flow: center space-evenly; */
+    align-items: center;
+    gap: 50px 20px;
+    /* flex-wrap: wrap; */
+}
+
+#flexContainer6 > div{
+    margin: 10px ;
+    background-color: azure;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 50px;
+    align-items: center;
+}
+
+#item1{
+    /* background-color: blueviolet; */
+    order: 3;
+    /* color: brown; */
+}
+.item2{
+    order: 1;
+}
+.item3{
+    order: 2;
+}
